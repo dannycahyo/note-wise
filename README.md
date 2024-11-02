@@ -1,6 +1,32 @@
-# Welcome to Remix!
+# Note-Wise Workshop Project
 
-- 📖 [Remix docs](https://remix.run/docs)
+Welcome to the Note-Wise workshop project! This repository is structured to help you learn and follow along with the development process.
+
+## Project Overview
+
+Note-Wise is a note-taking application built for learning purposes. This project demonstrates various programming concepts and best practices in a practical, hands-on way.
+
+## Repository Structure
+
+This repository has two main branches:
+
+### `develop` Branch
+
+- Contains the initial/starter code
+- Use this branch if you're following along with the workshop
+- Includes basic setup and structure to help you get started
+- Perfect for learning and implementing features step by step
+
+### `main` Branch
+
+- Contains the complete, final version of the project
+- Reference this branch to see the finished implementation
+- Includes all features fully implemented
+- Use this as a guide to check your work or understand the end goal
+
+## Getting Started
+
+1. Clone the repository:
 
 ## Development
 
@@ -10,31 +36,32 @@ Run the dev server:
 npm run dev
 ```
 
-## Deployment
+2. Switch to the develop branch for the starter code:
 
-First, build your app for production:
-
-```sh
-npm run build
+```shellscript
+git checkout develop
 ```
 
-Then run the app in production mode:
+3. Install dependencies:
 
-```sh
-npm start
+```shellscript
+npm install
 ```
 
-Now you'll need to pick a host to deploy it to.
+4. Follow along with the workshop instructions to build the application
 
-### DIY
+## Workshop Progress
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+The workshop will guide you through:
 
-Make sure to deploy the output of `npm run build`
+- Initial project setup
+- Building core features
+- Implementing the user interface
+- Adding functionality
+- Testing and debugging
 
-- `build/server`
-- `build/client`
+## Need Help?
 
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- Check the final implementation in the main branch for reference
+- Review the commit history to see the step-by-step development process
+- Refer to the workshop documentation for detailed explanations
